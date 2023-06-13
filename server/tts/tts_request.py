@@ -1,6 +1,6 @@
 import azure.cognitiveservices.speech as speechsdk
 
-speech_key, service_region = "3f264881818945b396f6eb9a27ae8bb8", "japaneast"
+speech_key, service_region = "", ""
 
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
