@@ -6,7 +6,7 @@ restart_sequence = "\n我："
 
 
 def friend_chat(text):
-    openai.api_key = "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"
+    openai.api_key = ""
     prompt = text
     if text == 'quit':
         return
